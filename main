@@ -1,0 +1,16 @@
+#include <iostream>
+#include <cstdlib>
+#include <ctime>
+using namespace std;
+
+int main()
+{
+    int tal1, tal2;
+    cout << "Ge mig ett tal s\x86 ska du f\x86 se. ";
+    cin >> tal1;
+    cout << "Tack som fan, ge mig ett till tal, d\x86 j\x84vlar. ";
+    cin >> tal2;
+    cout << "Summan av dina tal \x84r " << tal1+tal2 << endl;
+
+    return 0;
+}
